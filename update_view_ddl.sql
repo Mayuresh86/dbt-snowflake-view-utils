@@ -1,4 +1,4 @@
-{% macro update_view_ddl(prod_schema) %}
+{% macro update_view_ddl(Schema_A) %}
 
     {% set etl_schema = target.schema %}
     {% set db = target.database %}
